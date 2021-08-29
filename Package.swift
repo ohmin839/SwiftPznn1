@@ -14,9 +14,15 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "SwiftPznn1",
+            dependencies: ["SwiftPznn1Core"]),
+        .target(
+            name: "SwiftPznn1Core",
             dependencies: []),
         .testTarget(
             name: "SwiftPznn1Tests",
             dependencies: ["SwiftPznn1"]),
+        .testTarget(
+            name: "SwiftPznn1CoreTests",
+            dependencies: ["SwiftPznn1Core"]),
     ]
 )

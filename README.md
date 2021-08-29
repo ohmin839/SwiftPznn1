@@ -1,3 +1,3 @@
 # SwiftPznn1
 
-A description of this package.
+Study for (n^2 - 1) puzzles
