@@ -18,6 +18,9 @@ let package = Package(
         .target(
             name: "SwiftPznn1Core",
             dependencies: []),
+        .target(
+            name: "SwiftPznn1DeepLearning",
+            dependencies: []),
         .testTarget(
             name: "SwiftPznn1Tests",
             dependencies: ["SwiftPznn1"]),
